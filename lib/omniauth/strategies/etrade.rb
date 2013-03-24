@@ -13,15 +13,15 @@ module OmniAuth
       
       uid { "uid" }
 
-      info do
+      info
         { }
       end
      
-      extra do
+      extra
         { }
       end
       
-      def raw_info do
+      def raw_info
         { }
       end
                   
