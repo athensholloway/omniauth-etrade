@@ -11,18 +11,8 @@ module OmniAuth
         :authorize_url      => "https://us.etrade.com/e/t/etws/authorize"
       }
       
-      uid { "uid" }
-
-      info
-        { }
-      end
-     
-      extra
-        { }
-      end
-      
-      def raw_info
-        { }
+      uid do
+        ""
       end
                   
     end
