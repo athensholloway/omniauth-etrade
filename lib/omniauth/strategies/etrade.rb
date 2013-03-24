@@ -1,8 +1,8 @@
-require 'omniauth'
+require 'omniauth-oauth'
 
 module OmniAuth
   module Strategies
-    class SomeSite < OmniAuth::Strategies::OAuth
+    class Etrade < OmniAuth::Strategies::OAuth
       
       option :name, "etrade"
       
