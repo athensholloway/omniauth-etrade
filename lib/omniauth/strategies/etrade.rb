@@ -10,14 +10,6 @@ module OmniAuth
         :access_token_path  => "/oauth/access_token",
         :authorize_url      => "https://us.etrade.com/e/t/etws/authorize"
       }
-      
-      def callback_url
-        "http://localhost:3000/auth/etrade/callback"
-      end
-      
-      uid do
-        ""
-      end
                   
     end
   end
