@@ -3,7 +3,6 @@ require 'omniauth-oauth'
 module OmniAuth
   module Strategies
     class Etrade < OmniAuth::Strategies::OAuth
-      callback_url = ''
       option :client_options, {
         :site => 'https://api.mendeley.com',
         :request_token_path => '/oauth/request_token/',
