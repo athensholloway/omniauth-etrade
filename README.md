@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Omniauth::Etrade
 
 TODO: Write a gem description
@@ -27,3 +28,9 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+omniauth-etrade
+===============
+
+OmniAuth strategy for etrade
+>>>>>>> f25330067f94cde611f7e70695801b6da0fcda0a
