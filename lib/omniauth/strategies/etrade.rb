@@ -21,7 +21,7 @@ module OmniAuth
         { }
       end
       
-      raw_info do
+      def raw_info do
         { }
       end
                   
