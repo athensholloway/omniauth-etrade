@@ -10,6 +10,10 @@ module OmniAuth
         :access_token_url   => 'https://etws.etrade.com/oauth/access_token'
       }
 
+      def callback_url
+        'oob'
+      end
+      
       uid { raw_info['uid'] }
 
       info do
