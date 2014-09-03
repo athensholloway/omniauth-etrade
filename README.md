@@ -1,6 +1,6 @@
 # Omniauth::Etrade
 
-This is the official OmniAuth strategy for authenticating with E*Trade's API. To use it, you'll need a consumer key and consumer secret which can be obtained from E*Trade (more information available at developer.etrade.com)
+This is the official OmniAuth strategy for authenticating with E*Trade's API. To use it, you'll need a consumer key and consumer secret which can be obtained from E*Trade (more information available at [developer.etrade.com](https://developer.etrade.com/))
 
 ## Installation
 
