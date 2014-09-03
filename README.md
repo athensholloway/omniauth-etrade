@@ -44,7 +44,7 @@ If using devise, you'll want to declare provider in your config\initializers\dev
 
 ```ruby
 config.omniauth :etrade, ENV['CONSUMER_KEY'], ENV['CONSUMER_SECRET']
-```ebd
+```
 
 ## Contributing
 
