@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = OmniAuth::Etrade::VERSION
   spec.authors       = ["Athens Holloway", "Rakesh Patel"]
   spec.email         = ["athens@logicart.co", "rakesh.padsala@gmail.com"]
-  spec.description   = %q{OmniAuth strategy of E*TRADE}
-  spec.summary       = %q{OmniAuth strategy of E*TRADE}
+  spec.description   = %q{OmniAuth strategy for E*TRADE}
+  spec.summary       = %q{OmniAuth strategy for E*TRADE}
   spec.homepage      = "https://github.com/athensholloway/omniauth-etrade"
   spec.license       = "MIT"
 
