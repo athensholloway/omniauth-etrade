@@ -1,15 +1,22 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-# Specify your gem's dependencies in omniauth-mendeley.gemspec
-gemspec
+gem 'rake'
+gem 'yard'
 
-gem 'omniauth-oauth'
-
-group :development, :test do
-  gem 'guard'
+group :development do
   gem 'guard-rspec'
   gem 'guard-bundler'
-  gem 'growl'
   gem 'rb-fsevent'
+  gem 'growl'
   gem 'multi_json'
 end
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'webmock'
+  # gem 'simplecov', :require => false
+  # gem 'coveralls', :require => false
+end
+
+gemspec
